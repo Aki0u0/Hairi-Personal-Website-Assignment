@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body id="homepage">
+
+  <!-- Header -->
+  <div id="Header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo/Hairi.png" alt="HAIRI Logo" />
+      </a>
+    </div>
+    <div class="nav-links">
+      <ul>
+        <li><a href="game1.html">GAME 1</a></li>
+        <li><a href="game2.html">GAME 2</a></li>
+        <li><a href="game3.html">GAME 3</a></li>
+        <li><a href="game4.html">GAME 4</a></li>
+        <li><a href="game5.html">GAME 5</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Full-width Slider -->
+  <div class="slider">
+    <input type="radio" name="slide" id="slide1" checked>
+    <input type="radio" name="slide" id="slide2">
+    <input type="radio" name="slide" id="slide3">
+    <input type="radio" name="slide" id="slide4">
+    <input type="radio" name="slide" id="slide5">
+
+    <div class="slides">
+      <div class="slide s1"><img src="img/banner/slide1.jpg" alt="Slide 1"></div>
+      <div class="slide s2"><img src="img/banner/slide2.jpg" alt="Slide 2"></div>
+      <div class="slide s3"><img src="img/banner/slide3.jpg" alt="Slide 3"></div>
+      <div class="slide s4"><img src="img/banner/slide4.jpg" alt="Slide 4"></div>
+      <div class="slide s5"><img src="img/banner/slide5.jpg" alt="Slide 5"></div>
+    </div>
+
+    <div class="navigation-manual">
+      <label for="slide1" class="manual-btn"></label>
+      <label for="slide2" class="manual-btn"></label>
+      <label for="slide3" class="manual-btn"></label>
+      <label for="slide4" class="manual-btn"></label>
+      <label for="slide5" class="manual-btn"></label>
+    </div>
+
+    <!-- Text Overlay -->
+    <div class="slider-text">
+      <div class="highlight-box">
+        <h2>HELLO</h2>
+        <h1>I'M HAIRI HAKIM</h1>
+      </div>
+      
+      <div class="text-bg">
+        <p>
+          As a hardcore gamer, I played a lot of games<br>
+          since I was a kid and I take pride in the<br>
+          experiences and skills I’ve gained through<br>
+          years of playing. <span>These are my top 5 recommended games</span>
+        </p>
+      </div>    
+    </div>
+  </div>
+
+  <!-- Poster Carousel (homepage version) -->
+<div class="home-carousel-container">
+  <button id="home-prevBtn">&#10094;</button>
+  <div class="home-carousel">
+    <img src="img/poster/poster1.jpg" class="home-carousel-item active" alt="Poster1" />
+    <img src="img/poster/poster2.jpg" class="home-carousel-item next" alt="Poster2"/>
+    <img src="img/poster/poster3.jpg" class="home-carousel-item" alt="Poster3"/>
+    <img src="img/poster/poster4.jpg" class="home-carousel-item" alt="Poster4"/>
+    <img src="img/poster/poster5.jpg" class="home-carousel-item prev" alt="Poster5"/>
+  </div>
+  <button id="home-nextBtn">&#10095;</button>
+</div>
+
+
+  <!-- External JavaScript files -->
+  <script src="js/carousel.js" defer></script>
+  <script src="js/slider.js" defer></script>
+	<script src="js/scripts.js" defer></script>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/riirii.jpeg/"><img src="img/logo/instagram.png" alt="Instagram" /></a>
+      <a href="https://www.tiktok.com/@aki0w0_"><img src="img/logo/tiktok.png" alt="Tiktok" /></a>
+      <a href="https://www.youtube.com/@aki0w0"><img src="img/logo/youtube.png" alt="YouTube" /></a>
+    </div>
+    <p>@HAIRI All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
